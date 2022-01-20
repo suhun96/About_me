@@ -124,7 +124,7 @@ body {
 }
 
 .name-title {
-    font-size: 1.8em;
+    font-size: 1.4em;
     line-height: 1;
     color: deeppink;
     position: relative;
@@ -218,7 +218,7 @@ body {
 
 
 
-@media ( min-width: 600px ) {
+@media ( min-width: 800px ) {
    .portrait {
        position: fixed;
        left: 0;
@@ -228,6 +228,7 @@ body {
        padding: 0;
    }
    .profile {
+       padding-right: 20px;
        margin-left: 65vw;
    }
    .timeline {
